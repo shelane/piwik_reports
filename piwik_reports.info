@@ -1,0 +1,13 @@
+name = Piwik Reports
+description = Adds Piwik reports to Drupal reports section.
+core = 6.x
+package = Statistics
+dependencies[] = piwik
+dependencies[] = piwik_broken_module
+
+; Information added by drupal.org packaging script on 2011-02-25
+version = "6.x-1.x-dev"
+core = "6.x"
+project = "piwik"
+datestamp = "1298619942"
+
