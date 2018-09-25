@@ -1,0 +1,11 @@
+
+piwik_reports.piwik_reports_settings:
+  path: '/admin/config/system/piwik-reports'
+  defaults:
+    _form: '\Drupal\piwik_reports\Form\PiwikReportsSettings'
+    _title: 'Piwik Reports Settings'
+  requirements:
+    _permission: 'administer piwik reports'
+  options:
+    _admin_route: TRUE
+
