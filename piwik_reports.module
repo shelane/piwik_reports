@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * Contains piwik_reports.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * Implements hook_help().
+ */
+function piwik_reports_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the piwik_reports module.
+    case 'piwik_reports.piwik_reports_settings':
+      return t('<a href=":pk_url">Piwik - Web analytics</a> is an open source (GPL license) web analytics software. It gives interesting reports on your website visitors, your popular pages, the search engines keywords they used, the language they speak... and so much more. Piwik aims to be an open source alternative to Google Analytics.', [':pk_url' => 'http://www.piwik.org/']);
+  }
+}
