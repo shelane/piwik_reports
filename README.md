@@ -18,7 +18,7 @@ Sponsored by Relinc: http://www.relinc.it
 Installation
 ------------
 
- * composer...//TODO: add composer instructions
+ * composer require 'drupal/piwik_reports:^1.0'
 
  * Add your Piwik reports token_auth either globally (at 
    admin/config/system/piwik) or individually (in each user profile)
